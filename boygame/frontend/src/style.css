@@ -1,0 +1,33 @@
+.cont{
+    display: block;
+    height: 400px;
+    background-color: black;
+}
+.boy{
+    position: relative;
+    height: 130px;
+    margin-top: 180px;
+}
+.jump{
+    animation: jump 3.5s ease infinite
+}
+@keyframes jump {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-145px); /* Adjust the jump height as needed */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.cactus{
+    height: 100px;
+    /* background-color: green; */
+}
+.m1{
+    position: relative;
+    top: 300px;
+    /* background-color: green; */
+} 
