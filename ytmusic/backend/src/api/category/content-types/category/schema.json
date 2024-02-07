@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "singularName": "category",
+    "pluralName": "categories",
+    "displayName": "category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "artists": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::artist.artist",
+      "inversedBy": "categories"
+    },
+    "songs": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::song.song",
+      "mappedBy": "category"
+    }
+  }
+}
