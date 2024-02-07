@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+.temp-border{
+    border: 1px dashed red;
+}
+.v-nav{
+    height:30px;
+    width:494px !important; 
+    background-color:#3B3B4F;
+    border: none;
+}
+.v-nav::placeholder{
+    color: white !important;
+}
+.v-nav:focus{
+    background-color:#3B3B4F;
+    color: white !important;
+    box-shadow:none;
+    border: 4px solid #198eee  ;
+}
+header{
+    height: 58px;
+}
+.nav-1{
+ background-color:#0a0a23 !important;
+}
+.item1{
+    background-color:#0a0a23;
+    border:1px solid white
+}
+.item2{
+    background-color:#FEC446;
+    color:#210A23;
+}
+.brand{
+    margin-right: 18rem;
+}
+body{
+    background-color:#1B1B32;
+}
+.head1{
+    margin-left:256px;
+    margin-top:90px;
+}
+.head2{
+    margin-left:256px;
+    margin-top:72px;
+}
+.v-head{
+    width:739px;
+}
+@media screen and (max-width:980px) {
+   form{
+    display: none !important;
+   }
+   input{
+    display: none !important;
+   }
+   .brand{
+    margin: 0px;
+    text-align: left;
+    /* margin-left:-100px; */
+    display: block;
+    text-align: center;
+    width: 100%;
+   }
+   .head1{
+    margin-left: 0%;
+   }
+   .head2{
+    margin-left: 0%;
+   }
+   .v-head{
+    width: fit-content;
+   }
+   .gamer{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+   }
+  }
+  
