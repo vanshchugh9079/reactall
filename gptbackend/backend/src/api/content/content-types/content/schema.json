@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contents",
+  "info": {
+    "singularName": "content",
+    "pluralName": "contents",
+    "displayName": "content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "richtext"
+    },
+    "assistent": {
+      "type": "richtext"
+    },
+    "history": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::history.history",
+      "inversedBy": "contents"
+    }
+  }
+}
