@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.temp-border {
+    border: 1px solid black;
+}.container-fluid{
+    border-collapse: collapse; /* Collapses borders between cells */ 
+}
+.v_row1 {
+    height: 250px;
+    width: 600px;
+    border-collapse: collapse;
+}
+
+.m_row {
+    height: 41.6px;
+}
+
+.main-r {
+    height: 100px;
+    width: 600px;
+    border-collapse: collapse;
+}
+
+.main-w {
+    width: 41.6px;
+    border-collapse: collapse;
+}
+
+.main-h {
+    height: 33px;
+    border-collapse: collapse
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: #2DB1F3;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.v_box {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 13px;
+}
+
+.h-c {
+    height: 70px;
+    width: 70px;
+}
+.v_dice{
+    color: #e42c29;
+    font-size: 80px;
+    border: 2px solid green;
+}
+.v_dicehead{
+    margin: auto;
+    width: 100%;
+}
+.v_token{
+    width: 50px;
+    height: 50px;
+}
+.v_turn{
+    width:25px;
+}
